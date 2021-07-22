@@ -1,6 +1,6 @@
 ﻿namespace PharmacyOOP.Enums
 {
-    public enum ProductType
+    public enum ProductTypes
     {
         Medicine,
         Vitamine,

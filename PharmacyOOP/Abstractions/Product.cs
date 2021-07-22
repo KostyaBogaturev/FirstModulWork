@@ -17,6 +17,6 @@ namespace PharmacyOOP.Abstractions
 
         public string Image { get; set; }
 
-        public ProductType Type { get; set; }
+        public ProductTypes Type { get; set; }
     }
 }
