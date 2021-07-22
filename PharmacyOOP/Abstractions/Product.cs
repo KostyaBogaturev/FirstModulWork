@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PharmacyOOP.Enums;
+using System;
 
 namespace PharmacyOOP.Abstractions
 {
@@ -15,5 +16,7 @@ namespace PharmacyOOP.Abstractions
         public int Count { get; set; }
 
         public string Image { get; set; }
+
+        public ProductType Type { get; set; }
     }
 }
