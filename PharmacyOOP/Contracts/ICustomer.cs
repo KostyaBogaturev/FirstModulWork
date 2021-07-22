@@ -1,4 +1,5 @@
 ﻿using PharmacyOOP.Abstractions;
+using System.Collections.Generic;
 
 namespace PharmacyOOP.Contracts
 {
@@ -7,6 +8,8 @@ namespace PharmacyOOP.Contracts
         void AddToOrder(Product product);
 
         void MakeOrder();
+
+        IEnumerable<Product> GetAll();
 
     }
 }

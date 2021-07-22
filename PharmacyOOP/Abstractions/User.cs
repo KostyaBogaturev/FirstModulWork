@@ -25,14 +25,11 @@ namespace PharmacyOOP.Abstractions
 
         public Order Order { get; set; }
 
-        public void AddToOrder(Product product)
-        {
-            throw new NotImplementedException();
-        }
+        public abstract void AddToOrder(Product product);
 
-        public void MakeOrder()
-        {
-            throw new NotImplementedException();
-        }
+        public abstract IEnumerable<Product> GetAll();
+
+        public abstract void MakeOrder();
+
     }
 }
