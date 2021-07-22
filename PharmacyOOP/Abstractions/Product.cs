@@ -1,4 +1,5 @@
 ﻿using PharmacyOOP.Enums;
+using PharmacyOOP.Models;
 using System;
 
 namespace PharmacyOOP.Abstractions
@@ -18,5 +19,7 @@ namespace PharmacyOOP.Abstractions
         public string Image { get; set; }
 
         public ProductTypes Type { get; set; }
+
+        public IEquatable<Pharmacy> Pharmacies { get; set; }
     }
 }
