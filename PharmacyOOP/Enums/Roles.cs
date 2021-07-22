@@ -1,6 +1,6 @@
 ﻿namespace PharmacyOOP.Enums
 {
-    enum Roles
+    public enum Roles
     {
         Customer,
         Administrator

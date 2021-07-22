@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PharmacyOOP.Enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -18,6 +19,7 @@ namespace PharmacyOOP.Abstractions
 
         public string Email { get; set; }
 
+        public Roles Role { get; set; }
 
     }
 }
