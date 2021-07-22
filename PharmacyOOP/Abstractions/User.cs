@@ -1,4 +1,5 @@
-﻿using PharmacyOOP.Enums;
+﻿using PharmacyOOP.Contracts;
+using PharmacyOOP.Enums;
 using PharmacyOOP.Models;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace PharmacyOOP.Abstractions
 {
-    public abstract class User
+    public abstract class User : ICustomer
     {
         public Guid Id { get; set; }
 
@@ -24,5 +25,14 @@ namespace PharmacyOOP.Abstractions
 
         public Order Order { get; set; }
 
+        public void AddToOrder(Product product)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void MakeOrder()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
