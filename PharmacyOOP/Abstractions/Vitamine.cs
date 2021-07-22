@@ -1,7 +1,4 @@
 ﻿using PharmacyOOP.Enums;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PharmacyOOP.Abstractions
 {
@@ -11,7 +8,7 @@ namespace PharmacyOOP.Abstractions
 
         public Vitamine()
         {
-            Type= ProductTypes.Vitamine
+            Type = ProductTypes.Vitamine;
         }
     }
 }
