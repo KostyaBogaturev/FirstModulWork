@@ -5,6 +5,7 @@ namespace PharmacyOOP.Models
 {
     public class BodyCare :Cosmetic
     {
+        public string BodyPart { get; set; }
 
         public BodyCare()
         {
