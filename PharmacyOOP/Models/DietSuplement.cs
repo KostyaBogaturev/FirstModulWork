@@ -5,6 +5,8 @@ namespace PharmacyOOP.Models
 {
     public class DietSuplement : Vitamine
     {
+        public int WeightRestriction { get; set; }
+
         public DietSuplement()
         {
             Subtype = VitamineSubtypes.DietSuplement;
